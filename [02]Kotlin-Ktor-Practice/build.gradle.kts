@@ -24,7 +24,7 @@ dependencies {
     implementation("io.ktor:ktor-server-netty:${ktorVersion}")
     implementation("io.ktor:ktor-server-content-negotiation:$ktorVersion")
     implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
-    implementation("io.ktor:ktor-features:$ktorVersion")
+
     implementation("io.insert-koin:koin-core:$koinVersion")
     implementation("io.insert-koin:koin-ktor:$koinVersion")
 }
